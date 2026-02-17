@@ -1,0 +1,357 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1771294229216,
+  "projectRoot": "D:\\2026.2.6\\cc-switch-main",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "18.2.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "18.2.0",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "7.3.0",
+        "category": "build"
+      },
+      {
+        "name": "vitest",
+        "version": "2.0.5",
+        "category": "testing"
+      }
+    ],
+    "packageManager": "pnpm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "pnpm build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "pnpm dev",
+    "scripts": {
+      "dev": "pnpm tauri dev",
+      "build": "pnpm tauri build",
+      "tauri": "tauri",
+      "dev:renderer": "vite",
+      "build:renderer": "vite build",
+      "typecheck": "tsc --noEmit",
+      "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,json}\"",
+      "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,css,json}\"",
+      "test:unit": "vitest run",
+      "test:unit:watch": "vitest watch"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": true,
+    "workspaces": [],
+    "mainDirectories": [
+      "assets",
+      "docs",
+      "scripts",
+      "src",
+      "tests"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1771294229167,
+      "keyFiles": []
+    },
+    "cc-switch-main": {
+      "path": "cc-switch-main",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1771294229167,
+      "keyFiles": []
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 27,
+      "lastAccessed": 1771294229180,
+      "keyFiles": [
+        "BACKEND_REFACTOR_PLAN.md",
+        "CODEX_MCP_RAW_TOML_PLAN.md",
+        "opencode-implementation-plan.md",
+        "proxy-guide-zh.md",
+        "REFACTORING_CHECKLIST.md"
+      ]
+    },
+    "flatpak": {
+      "path": "flatpak",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1771294229180,
+      "keyFiles": [
+        "com.ccswitch.desktop.desktop",
+        "com.ccswitch.desktop.metainfo.xml",
+        "com.ccswitch.desktop.yml",
+        "README.md"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 3,
+      "lastAccessed": 1771294229180,
+      "keyFiles": [
+        "extract-icons.js",
+        "filter-icons.js",
+        "generate-icon-index.js"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 6,
+      "lastAccessed": 1771294229181,
+      "keyFiles": [
+        "App.tsx",
+        "index.css",
+        "index.html",
+        "main.tsx",
+        "types.ts"
+      ]
+    },
+    "src-tauri": {
+      "path": "src-tauri",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1771294229181,
+      "keyFiles": [
+        "build.rs",
+        "Cargo.lock",
+        "Cargo.toml",
+        "common-controls.manifest",
+        "Info.plist"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 2,
+      "lastAccessed": 1771294229181,
+      "keyFiles": [
+        "setupGlobals.ts",
+        "setupTests.ts"
+      ]
+    },
+    "cc-switch-main\\src": {
+      "path": "cc-switch-main\\src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1771294229181,
+      "keyFiles": []
+    },
+    "src\\assets": {
+      "path": "src\\assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1771294229182,
+      "keyFiles": []
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 14,
+      "lastAccessed": 1771294229182,
+      "keyFiles": [
+        "AppSwitcher.tsx",
+        "BrandIcons.tsx",
+        "ColorPicker.tsx"
+      ]
+    },
+    "src\\config": {
+      "path": "src\\config",
+      "purpose": "Configuration files",
+      "fileCount": 10,
+      "lastAccessed": 1771294229182,
+      "keyFiles": [
+        "appConfig.tsx",
+        "claudeProviderPresets.ts",
+        "codexProviderPresets.ts"
+      ]
+    },
+    "src-tauri\\src": {
+      "path": "src-tauri\\src",
+      "purpose": "Source code",
+      "fileCount": 24,
+      "lastAccessed": 1771294229183,
+      "keyFiles": [
+        "app_config.rs",
+        "app_store.rs",
+        "auto_launch.rs"
+      ]
+    },
+    "tests\\components": {
+      "path": "tests\\components",
+      "purpose": "UI components",
+      "fileCount": 8,
+      "lastAccessed": 1771294229183,
+      "keyFiles": [
+        "AddProviderDialog.test.tsx",
+        "GlobalProxySettings.test.tsx",
+        "ImportExportSection.test.tsx"
+      ]
+    },
+    "tests\\utils": {
+      "path": "tests\\utils",
+      "purpose": "Utility functions",
+      "fileCount": 3,
+      "lastAccessed": 1771294229183,
+      "keyFiles": [
+        "omoConfig.test.ts",
+        "providerMetaUtils.test.ts",
+        "testQueryClient.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src\\lib\\api\\config.ts",
+      "accessCount": 12,
+      "lastAccessed": 1771296657051,
+      "type": "file"
+    },
+    {
+      "path": "src-tauri\\src\\config_merge.rs",
+      "accessCount": 11,
+      "lastAccessed": 1771296469208,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\providers\\forms\\ProviderForm.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1771301774878,
+      "type": "file"
+    },
+    {
+      "path": "src\\types.ts",
+      "accessCount": 6,
+      "lastAccessed": 1771301421340,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 4,
+      "lastAccessed": 1771301880484,
+      "type": "directory"
+    },
+    {
+      "path": "src-tauri\\src\\services\\provider\\mod.rs",
+      "accessCount": 3,
+      "lastAccessed": 1771301774845,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n\\locales\\zh.json",
+      "accessCount": 2,
+      "lastAccessed": 1771301732778,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n\\locales\\en.json",
+      "accessCount": 2,
+      "lastAccessed": 1771301732911,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\providers\\forms\\CommonConfigEditor.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1771301774703,
+      "type": "file"
+    },
+    {
+      "path": "src\\hooks\\useCommonConfigBase.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771295330968,
+      "type": "file"
+    },
+    {
+      "path": "src\\hooks\\commonConfigAdapters.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771295331032,
+      "type": "file"
+    },
+    {
+      "path": "src\\utils\\configMerge.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771295331075,
+      "type": "file"
+    },
+    {
+      "path": "src\\utils\\tomlConfigMerge.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771295353155,
+      "type": "file"
+    },
+    {
+      "path": "src-tauri\\src\\services\\provider\\live.rs",
+      "accessCount": 1,
+      "lastAccessed": 1771295353204,
+      "type": "file"
+    },
+    {
+      "path": "src-tauri\\src\\commands\\config.rs",
+      "accessCount": 1,
+      "lastAccessed": 1771295364708,
+      "type": "file"
+    },
+    {
+      "path": "src\\utils\\providerConfigUtils.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771295364729,
+      "type": "file"
+    },
+    {
+      "path": "src\\utils\\commonConfigDetection.ts",
+      "accessCount": 1,
+      "lastAccessed": 1771295392447,
+      "type": "file"
+    },
+    {
+      "path": "src\\i18n\\locales\\ja.json",
+      "accessCount": 1,
+      "lastAccessed": 1771301274655,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

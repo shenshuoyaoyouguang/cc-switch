@@ -1,0 +1,9 @@
+{"t":0,"agent":"aa7f94c","agent_type":"code-reviewer","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"aa7f94c","agent_type":"code-reviewer","event":"agent_stop","success":true,"duration_ms":466299}
+{"t":0,"agent":"a4f381f","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a605821","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"abe8c7b","agent_type":"code-reviewer","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"abe8c7b","agent_type":"code-reviewer","event":"agent_stop","success":true,"duration_ms":269295}
+{"t":0,"agent":"a9d9c6d","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"system","event":"skill_invoked","skill_name":"oh-my-claudecode:git-master"}
+{"t":0,"agent":"a5f3994","agent_type":"unknown","event":"agent_stop","success":true}

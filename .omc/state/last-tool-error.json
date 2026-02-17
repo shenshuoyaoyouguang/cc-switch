@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"D:/2026.2.6/cc-switch-main/src/i18n/locales/ja.json\"}",
+  "error": "File content (25162 tokens) exceeds maximum allowed tokens (25000). Please use offset and limit parameters to read specific portions of the file, or use the GrepTool to search for specific content.",
+  "timestamp": "2026-02-17T04:15:33.081Z",
+  "retry_count": 1
+}
